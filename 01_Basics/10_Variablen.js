@@ -8,6 +8,6 @@ console.log((a + b) / c)
 console.log(c - a + b)
 console.log(a + b + c * 3)
 console.log((a + b + c) / 4)
-let a = 3
-let b = a + 3
-let c = c - 3
+a = 3
+b = a + 3
+c = c - 3
