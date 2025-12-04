@@ -1,1 +1,15 @@
-a = 888
+a = 1
+if (a > 0) {
+
+    console.log("The Number is positive")
+}
+
+if (a < 0) {
+
+    console.log("The Number is negative")
+}
+
+if (a == 0) {
+
+    console.log("The number is zero")
+}
