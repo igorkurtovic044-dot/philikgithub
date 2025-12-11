@@ -10,5 +10,5 @@ else if (drink === "tea") {
     console.log("Thanks for choosing tea!");
 }
 else if (drink === "beer") {
-    console.log("Thanks for choosing beer!");
+    console.log("Thanks for choosing beer, but don't drink too much!");
 }
