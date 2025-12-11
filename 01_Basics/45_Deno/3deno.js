@@ -18,3 +18,4 @@ else if (operation == "/") {
 else {
     console.log("Invalid operation");
 }
+
