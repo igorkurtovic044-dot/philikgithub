@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    background-image: url("kroatien-flagge.png");
+    background-size: cover;
+    /* füllt ganzen Bildschirm */
+    background-position: center;
+    /* schön zentriert */
+    background-repeat: no-repeat;
+    /* kein Kacheln */
+
+    font-family: Arial, sans-serif;
+    text-align: left;
+}
+
+h1,
+p,
+a {
+    background: rgba(255, 255, 255, 0.7);
+    padding: 10px 15px;
+    border-radius: 12px;
+    display: inline-block;
+}
