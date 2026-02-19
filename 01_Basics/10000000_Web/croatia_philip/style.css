@@ -4,21 +4,40 @@ body {
 
     background-image: url("kroatien-flagge.png");
     background-size: cover;
-    /* füllt ganzen Bildschirm */
     background-position: center;
-    /* schön zentriert */
     background-repeat: no-repeat;
-    /* kein Kacheln */
-
     font-family: Arial, sans-serif;
     text-align: left;
 }
 
-h1,
-p,
-a {
-    background: rgba(255, 255, 255, 0.7);
+h1 {
+    background: rgb(255, 255, 255);
     padding: 10px 15px;
     border-radius: 12px;
     display: inline-block;
+}
+
+.roterblock {
+    background: rgb(255, 0, 0);
+    padding: 10px 15px;
+    border-radius: 12px;
+    display: inline-block;
+    margin: 10px;
+    border: rgb(0, 0, 0) solid 2px;
+}
+
+.weißerblock {
+    background: rgb(255, 255, 255);
+    padding: 10px 15px;
+    border-radius: 12px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.blauerblock {
+    background: rgb(0, 0, 255);
+    padding: 10px 15px;
+    border-radius: 12px;
+    display: inline-block;
+    margin: 10px;
 }
