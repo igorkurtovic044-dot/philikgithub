@@ -1,0 +1,13 @@
+.heading{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    height: 100px;
+}
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: azure;
+    padding: 20px;
+}
