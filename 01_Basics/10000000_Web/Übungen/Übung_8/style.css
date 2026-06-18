@@ -1,0 +1,46 @@
+body {
+    margin: 20px;
+    font-family: sans-serif;
+}
+
+.hauptrahmen {
+    border: 2px solid black;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bereich-oben {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.tuerkis-box {
+    width: 35px;
+    height: 35px;
+    background-color: #80ffff;
+    border: 2px solid black;
+}
+
+.bereich-unten {
+    border-top: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    height: 40px;
+}
+
+.pink-gruppe {
+    display: flex;
+    gap: 5px;
+}
+
+.pink-box {
+    width: 25px;
+    height: 25px;
+    background-color: #ff99b3;
+    border: 2px solid black;
+}

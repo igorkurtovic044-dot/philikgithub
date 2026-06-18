@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    width: 220px;
+    height: 140px;
+    background-color: lightblue;
+    border: 2px solid black;
+}
+
+.bottom-right {
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
