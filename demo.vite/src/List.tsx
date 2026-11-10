@@ -1,4 +1,4 @@
-import './list.css'
+import './List.module.css'
 <div>
   <ul>
     <li>Item 1</li>
