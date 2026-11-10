@@ -1,7 +1,6 @@
-import './App.css'
 import styles from './App.module.css';
 
-import Card from './card';
+import Card from './Card.tsx';
 
 
 function App() {
